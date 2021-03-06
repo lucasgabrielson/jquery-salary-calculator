@@ -10,42 +10,42 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <div class="h-24 w-full bg-green-400" id="header">
+    <div class="m-4 h-24 w-full bg-green-400" id="header">
         <h2 class="text-3xl font-bold text-green-100 text-center pt-5">JQuery Salary Calculator</h2>
     </div>
-    <div class="py-4" id="inputs">
-        <input class="border-solid py-2 px-3 text-gray-600 divide-gray-500" type="text" id="firstName" placeholder="First Name">
-        <input class="border-solid py-2 px-3 text-gray-600" type="text" id="lastName" placeholder="Last Name">
-        <input class="border-solid py-2 px-3 text-gray-600" type="number" id="idNumber" placeholder="Employee ID">
-        <input class="border-solid py-2 px-3 text-gray-600" type="text" id="jobTitle" placeholder="Title">
-        <input class="border-solid py-2 px-3 text-gray-600" type="text" id="salary" placeholder="Annual Salary">
+    <div class="m-4 py-4 pb-4 justify-center" id="inputs">
+        <input class="border-solid border-2 py-2 px-3 text-gray-600 divide-gray-500" type="text" id="firstName" placeholder="First Name">
+        <input class="border-solid border-2 py-2 px-3 text-gray-600 divide-gray-500" type="text" id="lastName" placeholder="Last Name">
+        <input class="border-solid border-2 py-2 px-3 text-gray-600 divide-gray-500" type="number" id="idNumber" placeholder="Employee ID">
+        <input class="border-solid border-2 py-2 px-3 text-gray-600 divide-gray-500" type="text" id="jobTitle" placeholder="Title">
+        <input class="border-solid border-2 py-2 px-3 text-gray-600 divide-gray-500" type="text" id="salary" placeholder="Annual Salary">
+        <button class="border-solid border-2 border-blue-700 bg-white text-gray-500 hover:bg-blue-500 hover:text-white font-bold py-2 px-4 rounded" id="submit">Submit</button>
     </div>
-    <div class="pb-4">
-        <button id="submit">Submit</button>
-    </div>
-    <div class="h-8 w-full bg-green-300 ">
+    <div class="m-4 h-8 w-full bg-green-300 ">
         <h2 class="text-2xl font-bold text-green-100 text-center">Employees</h2>
     </div>
     <div class="pb-4">
-        <table id="">
-            <thead>
+    <div class="flex justify-end mr-32" id="monthlyParent">
+        <!-- Why do I need the id here and within the span tag for this to work? -->
+        <div class="border-2 border-gray-500 px-6" id="monthlySalary">
+            <h3>Total Monthly Payroll: $0</h3>
+        </div>
+    </div>
+        <table class="rounded-t-lg m-5 w-5/6 mx-auto bg-gray-200 text-gray-800">
+            <thead class="text-left border-b-2 bg-blue-300 border-gray-300">
                 <th>First Name</th>
                 <th>Last Name</th>
                 <th>Employee ID</th>
                 <th>Title</th>
-                <th>Salary</th>
+                <th>Annual Salary</th>
+                <th></th>
             </thead>
             <tbody id="employeeTableBody">
 
             </tbody>
         </table>
     </div>
-    <div id="monthlyParent">
-        <!-- Why do I need the id here and within the span tag for this to work? -->
-        <div class="" id="monthlySalary">
-            <h3>Monthly Salary: </h3>
-        </div>
-    </div>
+    
 
     
 
