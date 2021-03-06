@@ -118,7 +118,26 @@ function calculateMonthly() {
 } // end calculateMonthly
 
 function removeTR() {
-    console.log( 'in removeTR' );
+    // console.log( 'in removeTR' );
+    // console.log($( this ).parent().parent().text());
+    // console.log($( this ).parent().parent().text().toString().length);
+    // I could change regex to .+ in order to find names that were numbers or characters
+    let found = $( this ).parent().parent().text().match(/(\w+)/)[0];
+
+    for( let i  = 0; i < employees.length; i++) {
+        if( found === employees[i].firstName ) {
+            employees.splice( i, 1);
+        }
+    } // end for
+
+    showEmployees();
+    calculateMonthly();
+
+    // const returnFirstName = str => str.match(/\s(\w+)\s/);
+
+    // console.log(returnFirstName($( this ).parent().parent().text()));
+    
+
     $( this ).parent().parent().fadeOut();
     // calculateMonthly();
 } // end removeTR
