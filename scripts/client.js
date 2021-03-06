@@ -93,7 +93,7 @@ function showEmployees() {
 } // showEmployees
 
 function calculateMonthly() {
-    let redMonthly = $(`<div class="bg-red-500 text-white w-24 border-2 border-gray-500 px-6" id="monthlySalary"></div>`)
+    let redMonthly = $(`<div class="border bg-red-500 text-white w-auto border-2 border-gray-500 px-6 flex-initial justify-end mr-22 whitespace-nowrap" id="monthlySalary"></div>`)
     let totalSalary = 0;
     for( let i = 0; i < employees.length; i++) {
         totalSalary += Number(employees[i].salary);
@@ -105,7 +105,7 @@ function calculateMonthly() {
         $( '#monthlyParent' ).append(redMonthly);
         let el = $( '#monthlySalary');
         el.empty();
-        el.append(`<h3>Total Monthly Payroll: $${+(totalSalary / 12).toFixed(2)}</h3>`);
+        el.append(`<h3 class="inline">Total Monthly Payroll: $${+(totalSalary / 12).toFixed(2)}</h3>`);
     }
     else {
         $( '#monthlyParent' ).empty();
