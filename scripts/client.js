@@ -122,10 +122,12 @@ function removeTR() {
     // console.log($( this ).parent().parent().text());
     // console.log($( this ).parent().parent().text().toString().length);
     // I could change regex to .+ in order to find names that were numbers or characters
-    let found = $( this ).parent().parent().text().match(/(\w+)/)[0];
+    let found = $( this ).parent().parent().text().match(/\s(\d+)\s/)[0];
+
+    console.log(found);
 
     for( let i  = 0; i < employees.length; i++) {
-        if( found === employees[i].firstName ) {
+        if( found === employees[i].id ) {
             employees.splice( i, 1);
         }
     } // end for
