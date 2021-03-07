@@ -1,22 +1,10 @@
 # Project Name
 
-[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md
+JQuery Salary Calculator
 
 ## Description
 
-Your project description goes here. What problem did you solve? How did you solve it?
-
-Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
-
-Create Input Fields and Submit button
-
-On Click Take information from the inputs and push them into an array
-
-Append the Information to the DOM (including deleted button)
-
-Keep track of Monthly Salaries
-
-Append Total payroll to DOM
+This project provides the ability to take in the first and last name of an employee as well as their id #, salary and title. This information will be displayed on to DOM, along with the resultant total monthly payroll associated with the employee salaries. If an employee needs to be removed there is a delete icon that when clicked will remove the employee and their salary from the total monthly payroll. 
 
 
 
