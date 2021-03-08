@@ -20,6 +20,12 @@ function addEmployee() {
     
     employees.push(employee);
     showEmployees();
+
+    $( '#firstName' ).val( '' ),
+    $( '#lastName' ).val( '' ),
+    $( '#idNumber' ).val( '' ),
+    $( '#jobTitle' ).val( '' ),
+    $( '#salary' ).val( '' )
     
 
 } // end addEmployee
