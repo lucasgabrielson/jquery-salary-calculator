@@ -1,7 +1,7 @@
-![MIT LICENSE](https://img.shields.io/github/license/scottbromander/the_marketplace.svg?style=flat-square)
-![REPO SIZE](https://img.shields.io/github/repo-size/scottbromander/the_marketplace.svg?style=flat-square)
-![TOP_LANGUAGE](https://img.shields.io/github/languages/top/scottbromander/the_marketplace.svg?style=flat-square)
-![FORKS](https://img.shields.io/github/forks/scottbromander/the_marketplace.svg?style=social)
+![MIT LICENSE](https://img.shields.io/github/license/gabri1463/jquery-salary-calculator.svg?style=flat-square)
+![REPO SIZE](https://img.shields.io/github/repo-size/gabri1463/jquery-salary-calculator.svg?style=flat-square)
+![TOP_LANGUAGE](https://img.shields.io/github/languages/top/gabri1463/jquery-salary-calculator.svg?style=flat-square)
+![FORKS](https://img.shields.io/github/forks/gabri1463/jquery-salary-calculator.svg?style=social)
 
 # Project Name
 
@@ -39,7 +39,7 @@ TailwindCSS Framework
 Thanks to [Prime Digital Academy](www.primeacademy.io) who equipped and helped me to make this application a reality. Additionally my wife [Jaclyn Gabrielson](https://www.linkedin.com/in/jmerriamcpa) who decided on the the layout of the website.
 
 ## Support
-If you have suggestions or issues, please email me at [lucas.gabrielson@icloud.com]
+If you have suggestions or issues, please email me at lucas.gabrielson@icloud.com
 
 
 
