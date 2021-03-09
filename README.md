@@ -33,10 +33,10 @@ Open index.html file in browser
 
 ## Built With
 
-(should I mention TailwindCSS here and not above)
+TailwindCSS Framework
 
 ## Acknowledgement
-Thanks to [Prime Digital Academy](www.primeacademy.io) who equipped and helped me to make this application a reality. Additionally my wife Jaclyn Gabrielson (add linkedin) who decided on the the layout of the website?
+Thanks to [Prime Digital Academy](www.primeacademy.io) who equipped and helped me to make this application a reality. Additionally my wife Jaclyn Gabrielson (https://www.linkedin.com/in/jmerriamcpa) who decided on the the layout of the website.
 
 ## Support
 If you have suggestions or issues, please email me at [lucas.gabrielson@icloud.com]
