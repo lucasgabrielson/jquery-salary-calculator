@@ -29,7 +29,7 @@ Open index.html file in browser
 
 ## Usage
 
-(is usage the manner by which someone interacts with this site?)
+Enter in employee information in input fields. Total monthly payroll is updated with each employee. Remove employees and their salary with the delete icon.
 
 ## Built With
 
