@@ -19,9 +19,9 @@ In html I created inputs and let the user know what should be entered into the f
 
 ## Screen Shot
 
-![](./images/Screen Shot 2021-03-08 at 9.00.44 PM.png?raw=true)
-![](./images/Screen Shot 2021-03-08 at 9.01.14 PM.png?raw=true)
-![](./images/Screen Shot 2021-03-08 at 9.01.30 PM.png?raw=true)
+<img width="1428" alt="Screen Shot 2021-03-08 at 9 00 44 PM" src="https://user-images.githubusercontent.com/74149109/110412777-595ef100-8052-11eb-9695-15c53484456c.png">
+<img width="1429" alt="Screen Shot 2021-03-08 at 9 01 14 PM" src="https://user-images.githubusercontent.com/74149109/110412784-5bc14b00-8052-11eb-984b-4de8c2b354ae.png">
+<img width="1432" alt="Screen Shot 2021-03-08 at 9 01 30 PM" src="https://user-images.githubusercontent.com/74149109/110412793-5e23a500-8052-11eb-83c5-39469c5fffc8.png">
 
 ## Installation
 
