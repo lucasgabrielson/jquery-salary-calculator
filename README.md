@@ -25,7 +25,9 @@ In html I created inputs and let the user know what should be entered into the f
 
 ## Installation
 
-Open index.html file in browser
+1. npm install
+2. npm run build-css
+3. open index.html in browser
 
 ## Usage
 
