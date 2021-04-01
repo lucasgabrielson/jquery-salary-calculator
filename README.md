@@ -31,7 +31,7 @@ In html I created inputs and let the user know what should be entered into the f
 
 ## Usage
 
-Enter in employee information in input fields. Total monthly payroll is updated with each employee. Remove employees and their salary with the delete icon.
+Enter in employee information in input fields. Total monthly payroll is updated with each employee. Remove employees and their salary with delete icon.
 
 ## Built With
 
